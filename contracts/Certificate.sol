@@ -6,9 +6,7 @@ contract Owned{
     constructor() public {
         owner = msg.sender;
     }
-    /** @dev Checks whether the sender of the function is owner.
-      * @param owner Address of the owner.
-      */
+   
     modifier onlyOwner {
         require(
             msg.sender == owner,
