@@ -33,4 +33,12 @@ Make sure to install npm, webpack, webpack-cli globally.
 3. Select the Ropsten Network in MetaMask.
 
 #### Note-:
-This project has also some essential files for integrating uPort(a ownership identity verification dapp) but currently this project is missing functionality of integration with uport as i have plans to integrate it further to allow the usage of this certificate issuing dapp at a wide scope with one time identity verification with push notifications regarding the alerts for the credential issued.  
+This project has also some essential files for integrating uPort(a ownership identity verification dapp) but currently this project is missing functionality of integration with uport as i have plans to integrate it further to allow the usage of this certificate issuing dapp at a wide scope with one time identity verification with push notifications regarding the alerts for the credential issued.
+
+### Interaction
+
+Once the application starts on the localhost you have to interact with the contract phase and for this you shoul follow some input guidelines
+1.Below the Name field , try to input only string value i.e. "Your Name"
+2.Below the Level field try to input only integer values i.e. from 0-9 but it has got some conditions
+    I-:Your metamask transaction will be failed if you will input the integer value above "3" because certifcates will be assigned on          only level 1,2 and 3.
+   II-:You will be assigned with the certificate on the blockchain network by confirming metamask transcation successfully if you              provided the level between 1-3. 
