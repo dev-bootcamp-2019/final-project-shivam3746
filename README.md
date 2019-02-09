@@ -44,6 +44,6 @@ Once the application starts on the localhost you have to interact with the contr
 2.Below the Level field try to input only integer values i.e. from 0-9 but it has got some conditions.
 
 
-   1. Your metamask transaction will be failed if you will input the integer value above "3" because certifcates will be assigned on           only level 1,2 and 3.
+   1. Your metamask transaction will be failed if you will input the integer value above "3" because certificates will be assigned on         only level 1,2 and 3 accoring to the contract.
     
    2. You will be assigned with the certificate on the blockchain network by confirming metamask transcation successfully if you               provided the level between 1-3. 
