@@ -13,7 +13,7 @@ a certificate from the organisation but the organisation offered two ways to rec
 1. Receive a pdf of the ceritificate.
 2. Receive your certificate on the blockchain network.
 
-Ramesh made a smart move by opting the second option as in this he has not to worry about his authneticity with the credential 
+Ramesh made a smart move by opting the second option as in this he has not to worry about his authenticity with the credential 
 He has not to worry about where to safely store the credential.As Credential is forever registered on the blockchain network.
 
 ### Dependencies
